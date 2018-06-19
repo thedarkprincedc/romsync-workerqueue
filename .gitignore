@@ -1,2 +1,3 @@
-./roms
+roms/
+node_modules/
 .DS_Store
