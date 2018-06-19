@@ -8,6 +8,7 @@ function download(url, dest, cb) {
     // verify response code
     sendReq.on('response', function(response) {
         if (response.statusCode !== 200) {
+    
             return cb('Response status was ' + response.statusCode);
         }
     });
